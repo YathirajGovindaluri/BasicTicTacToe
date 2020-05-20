@@ -24,18 +24,6 @@ public class TicTacToe {
 	}
 
 	public static void main(String[] args) {
-		/*
-		Scanner scan = new Scanner(System.in);
-		System.out.println("Enter Your Name : ");
-		final String  user = scan.nextLine();
-		System.out.println("Enter Your choice symbol \n 1 . 'X' \n 2. 'O' \n\t\t : ");
-		char symbol = Character.toUpperCase(scan.next(".").charAt(0));
-		while(symbol != 1 && symbol != 2) {
-			System.out.println("Oops... It's a wrong choice :( \n ");
-			System.out.println("Please select \n 1 . 'X' \n 2. 'O' \n\t\t : ");
-			symbol = Character.toUpperCase(scan.next(".").charAt(0));
-		}
-		*/
 		new TicTacToe();
 		
 		char[][] gameBoard = { { ' ', '|', ' ', '|', ' ' }, { '-', '+', '-', '+', '-' }, { ' ', '|', ' ', '|', ' ' },
