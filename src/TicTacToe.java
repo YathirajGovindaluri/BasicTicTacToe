@@ -17,7 +17,7 @@ public class TicTacToe {
 			}
 			else {
 				System.out.println("Oops... It's a wrong choice :( \n ");
-				System.out.println("Please select \n 1 . 'X' \n 2. 'O' \n\t\t : ");
+				System.out.println("Please select \n 1 . 'X' \n 2. 'O' \t : ");
 				userSymbol = scan.nextInt();
 			}
 		}
